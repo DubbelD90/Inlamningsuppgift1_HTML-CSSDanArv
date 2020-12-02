@@ -59,7 +59,7 @@ a:hover {
 #topmenu .container .hours i {
   margin-right: 0.3rem;
   color: #2BAAEC;
-  font-size: 1.2em;
+  font-size: 1rem;
 }
 #topmenu .container .socialmedia {
   flex: 1;
@@ -67,6 +67,7 @@ a:hover {
   justify-content: flex-end;
   list-style: none;
   margin: 0;
+  font-size: 1rem;
 }
 #topmenu .container .socialmedia li {
   margin-left: 1.3rem;
@@ -143,27 +144,27 @@ a:hover {
 }
 @media (min-width: 768px) {#showcase .container .placehold {height: 279px;}}
 @media (min-width: 1200px) {#showcase .container .placehold {height: 679px;}}
+
 #showcase .container .showcaseinfo {
   width: auto;
   height: auto;
-  justify-content: space-between;
   align-items: center;
   padding-right: 1%;
 }
-@media (min-width: 768px) {#showcase .container .showcaseinfo {height: auto;}}
+@media (min-width: 350px) {#showcase .container .showcaseinfo {width: 200px;}}
+@media (min-width: 768px) {#showcase .container .showcaseinfo {width: 350px;}}
 @media (min-width: 1200px) {#showcase .container .showcaseinfo {width: 690px;;}}
 
 #showcase .container .showcaseinfo h1 {
   font-family: 'Roboto Slab', serif;
-  font-size: 2.5em;
   font-weight: normal;
   font-family: 'Roboto Slab', serif;
   color: #363636;
   font-size: 15px;
   font-weight: normal;
 }
-@media (min-width: 760px) { #showcase .container .showcaseinfo h1 { font-size: 30px; } }
-@media (min-width: 1200px) { #showcase .container .showcaseinfo h1 { font-size: 60px; } }
+@media (min-width: 760px) { #showcase .container .showcaseinfo h1 { font-size: 1.875rem; } }
+@media (min-width: 1200px) { #showcase .container .showcaseinfo h1 { font-size: 3.75rem; } }
 
 #showcase .container .showcaseinfo h2 {
   font-size: 6px;
