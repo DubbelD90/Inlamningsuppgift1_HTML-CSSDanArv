@@ -122,7 +122,6 @@ a:hover {
 /*showcase*/
 #showcase {
   background-color:#DEDEDE;
-  padding-top: 1rem;
   height: auto;
 }
 
@@ -132,18 +131,20 @@ a:hover {
   justify-content: space-between;
   padding-left: 0%;
   padding-right: 2%;
-  height: 179px;
+  height: 200px;
+  border: 1px solid black;
+  padding-top: 1.315rem;
 }
 @media (min-width: 1800px) {#showcase .container { max-width: 1500px; } }
-@media (min-width: 768px) {#showcase .container {height: 279px;}}
-@media (min-width: 1200px) {#showcase .container {height: 679px;}}
+@media (min-width: 768px) {#showcase .container {height: 300px;}}
+@media (min-width: 1200px) {#showcase .container {height: 700px;}}
 
 #showcase .container .placehold {
   height: 179px;
-  align-self: flex-end;
+  border: 1px solid black;
 }
 @media (min-width: 768px) {#showcase .container .placehold {height: 279px;}}
-@media (min-width: 1200px) {#showcase .container .placehold {height: 679px;}}
+@media (min-width: 1200px) {#showcase .container .placehold {height: auto;}}
 
 #showcase .container .showcaseinfo {
   width: auto;
@@ -160,19 +161,19 @@ a:hover {
   font-weight: normal;
   font-family: 'Roboto Slab', serif;
   color: #363636;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: normal;
 }
 @media (min-width: 760px) { #showcase .container .showcaseinfo h1 { font-size: 1.875rem; } }
 @media (min-width: 1200px) { #showcase .container .showcaseinfo h1 { font-size: 3.75rem; } }
 
 #showcase .container .showcaseinfo h2 {
-  font-size: 6px;
+  font-size: 0.5rem;
   font-weight: normal;
   color: #363636;
 }
-@media (min-width: 760px) { #showcase .container .showcaseinfo h2 { font-size: 10px; } }
-@media (min-width: 1200px) { #showcase .container .showcaseinfo h2 { font-size: 18px; } }
+@media (min-width: 760px) { #showcase .container .showcaseinfo h2 { font-size: 0.625rem; } }
+@media (min-width: 1200px) { #showcase .container .showcaseinfo h2 { font-size: 1.125rem; } }
 
 #showcase .container .showcaseinfo button {
   background-color: #25E6C8;
