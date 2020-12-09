@@ -132,7 +132,6 @@ a:hover {
   padding-left: 0%;
   padding-right: 2%;
   height: 200px;
-  border: 1px solid black;
   padding-top: 1.315rem;
 }
 @media (min-width: 1800px) {#showcase .container { max-width: 1500px; } }
@@ -141,7 +140,6 @@ a:hover {
 
 #showcase .container .placehold {
   height: 179px;
-  border: 1px solid black;
 }
 @media (min-width: 768px) {#showcase .container .placehold {height: 279px;}}
 @media (min-width: 1200px) {#showcase .container .placehold {height: auto;}}
