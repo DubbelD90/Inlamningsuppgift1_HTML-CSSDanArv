@@ -28,7 +28,7 @@ html, body {
 a {
   color: #2BAAEC;
   text-decoration: none;
-  font-size: 6px;
+  font-size: 8px;
 }
 @media (min-width: 760px) { a { font-size: 10px; } }
 @media (min-width: 1200px) { a { font-size: 18px; } }
@@ -132,25 +132,23 @@ a:hover {
   padding-left: 0%;
   padding-right: 2%;
   height: 200px;
-  padding-top: 1.315rem;
 }
-@media (min-width: 1800px) {#showcase .container { max-width: 1500px; } }
 @media (min-width: 768px) {#showcase .container {height: 300px;}}
 @media (min-width: 1200px) {#showcase .container {height: 700px;}}
+@media (min-width: 1800px) {#showcase .container { max-width: 1500px; } }
 
 #showcase .container .placehold {
+  align-self: flex-end;
   height: 179px;
 }
 @media (min-width: 768px) {#showcase .container .placehold {height: 279px;}}
 @media (min-width: 1200px) {#showcase .container .placehold {height: auto;}}
 
 #showcase .container .showcaseinfo {
-  width: auto;
+  width: 200px;
   height: auto;
   align-items: center;
-  padding-right: 1%;
 }
-@media (min-width: 350px) {#showcase .container .showcaseinfo {width: 200px;}}
 @media (min-width: 768px) {#showcase .container .showcaseinfo {width: 350px;}}
 @media (min-width: 1200px) {#showcase .container .showcaseinfo {width: 690px;;}}
 
@@ -159,18 +157,18 @@ a:hover {
   font-weight: normal;
   font-family: 'Roboto Slab', serif;
   color: #363636;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: normal;
 }
 @media (min-width: 760px) { #showcase .container .showcaseinfo h1 { font-size: 1.875rem; } }
 @media (min-width: 1200px) { #showcase .container .showcaseinfo h1 { font-size: 3.75rem; } }
 
 #showcase .container .showcaseinfo h2 {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   font-weight: normal;
   color: #363636;
 }
-@media (min-width: 760px) { #showcase .container .showcaseinfo h2 { font-size: 0.625rem; } }
+@media (min-width: 760px) { #showcase .container .showcaseinfo h2 { font-size: 0.9rem; } }
 @media (min-width: 1200px) { #showcase .container .showcaseinfo h2 { font-size: 1.125rem; } }
 
 #showcase .container .showcaseinfo button {
@@ -189,8 +187,6 @@ a:hover {
   color: white;
   font-weight: bold;
 }
-
-
 
 
 
